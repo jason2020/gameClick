@@ -1,0 +1,28 @@
+#gameContainer {
+	height: 100vh;
+	position: relative;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid black;
+}
+
+.gameOption {
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	border-right: 1px solid black;
+}
+
+#display {
+	height: 90vh;
+	border: 1px solid #000;
+	font-size: 1em;
+	text-align: center;
+	line-height: 90vh;
+	white-space: pre;
+	overflow: scroll;
+}
