@@ -55,7 +55,7 @@ const storyScripts = {
 	},
 	"L": {
 		choiceText: "Jump into the fountain",
-		resultText: "Your clothes are now wet. Even you're socks.",
+		resultText: "Your clothes are now wet. Even your socks.",
 		nextChoices: ["O"]
 	},
 	"M": {
