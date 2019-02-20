@@ -15,17 +15,17 @@ const storyScripts = {
 	},
 	"D": {
 		choiceText: "Go right",
-		resultText: "The right path led to a icy walkway. The ice cracks from the weight of your body. You fall into the ice-cold abyss below and drown. Refresh to see more paths.",
+		resultText: "The right path leads to an icy walkway. The ice cracks from the weight of your body. You fall into the ice-cold abyss below and drown. Refresh to see more paths.",
 		nextChoices: []
 	},
 	"E": {
 		choiceText: "Go towards the light",
-		resultText: "You see a strange bonsai tree with a box of matches. The bonsai twists into a odd spiral shape. Burn the bonsai tree?",
+		resultText: "You see a strange bonsai tree with a box of matches. The bonsai twists into an odd spiral shape. Burn the bonsai tree?",
 		nextChoices: ["G", "H"]
 	},
 	"F": {
 		choiceText: "Go away from the light",
-		resultText: "You see a strange bonsai tree with a box of matches. The bonsai twists into a odd spiral shape. Burn the bonsai tree?",
+		resultText: "You see a strange bonsai tree with a box of matches. The bonsai twists into an odd spiral shape. Burn the bonsai tree?",
 		nextChoices: ["G", "H"]
 	},
 	"G": {
@@ -35,12 +35,12 @@ const storyScripts = {
 	},
 	"H": {
 		choiceText: "Do not burn the tree",
-		resultText: "The light mist on the leaves sparkle. You continue walking through the tunnel until you come upon fountain with water. You are very thirsty.",
+		resultText: "The light mist on the leaves sparkles. You continue walking through the tunnel until you come upon fountain with water. You are very thirsty.",
 		nextChoices: ["I", "L", "M"]
 	},
 	"I": {
 		choiceText: "Drink the water",
-		resultText: "Drinking the water quenches you're thirst. You feel much better now.",
+		resultText: "Drinking the water quenches your thirst. You feel much better now.",
 		nextChoices: ["O"]
 	},
 	"J": {
@@ -50,7 +50,7 @@ const storyScripts = {
 	},
 	"K": {
 		choiceText: "Go right",
-		resultText: "You now end up in a large cirular room. In the center of the room is a single square table with a rubix cube. The rubix cube is almost solved. The top layer is turned 90º off.",
+		resultText: "You now end up in a large cirular room. In the center of the room is a single square table with a Rubik's cube. The Rubik's cube is almost solved. The top layer is turned 90º off.",
 		nextChoices: ["P", "R"]
 	},
 	"L": {
@@ -60,27 +60,22 @@ const storyScripts = {
 	},
 	"M": {
 		choiceText: "Do not drink the water",
-		resultText: "You continue walking however you find that eventually you can not continue going. You collapse from dehydration. Refresh to see more paths.",
+		resultText: "You continue walking, however, you find that eventually you cannot continue going. You collapse from dehydration. Refresh to see more paths.",
 		nextChoices: []
-	},
-	"N": {
-		choiceText: "This is F",
-		resultText: "Something happens (F)",
-		nextChoices: ["C", "D", "E"]
 	},
 	"O": {
 		choiceText: "Keeping going down the tunnel",
-		resultText: "You now end up in a large cirular room. In the center of the room is a single square table with a rubix cube. The rubix cube is almost solved. The top layer is turned 90º off.",
+		resultText: "You now end up in a large cirular room. In the center of the room is a single square table with a Rubik's cube. The Rubik's cube is almost solved. The top layer is turned 90º off.",
 		nextChoices: ["P", "R"]
 	},
 	"P": {
 		choiceText: "Solve the Rubix cube",
-		resultText: "After turn the cube, everything goes dark. You black out and wake back up in the maze.",
+		resultText: "After turning the cube, everything goes dark. You black out and wake up in the maze.",
 		nextChoices: ["S"]
 	},
 	"R": {
 		choiceText: "Do not touch the cube",
-		resultText: "You see that behind the table, there is an opening out of the room. You continue forward. At last, you are out of the cave. The light blinds you're eyes and everything goes white.",
+		resultText: "You see that behind the table, there is an opening out of the room. You continue forward. At last, you are out of the cave. The light encompasses the room and everything turns white.",
 		nextChoices: ["U"]
 	},
 	"S": {
@@ -95,7 +90,7 @@ const storyScripts = {
 	},
 	"U": {
 		choiceText: "Wake up",
-		resultText: "You open you're eyes and see a maze in front of you. You can't remember anything.",
+		resultText: "You open your eyes and see the maze in front of you. You can't remember anything.",
 		nextChoices: ["B"]
 	},
 	"V": {
